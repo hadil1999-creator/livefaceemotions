@@ -1,4 +1,4 @@
-python
+
 azure-cognitiveservices-vision-face==0.5.0
 opencv-python
 msrest==0.6.21
