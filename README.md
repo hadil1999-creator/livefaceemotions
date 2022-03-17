@@ -2,16 +2,12 @@
 
 Face, Emotion, Age, Gender Detection Using Microsoft Azure Face API
 
-Demo: https://youtu.be/e0xqMmpjYL8
 
-![Image](./face-detection-azure.gif)
+
+
 
 :star: Star me on GitHub — it helps!
 
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/ioarun/face-detection-azure/commits/main)
-[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](https://youtu.be/e0xqMmpjYL8)
-[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/ioarun/)
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 # Dependencies
 
@@ -32,17 +28,17 @@ pip install <package-name>
 ```
 
 * Start a terminal (Ctrl + Alt + T on Ubuntu).
-* Clone this repository and navigate to `face-detection-azure/`.
+* Clone this repository .
 
 ```
-git clone https://github.com/ioarun/face-detection-azure.git
-cd face-detection-azure/
+git clone https://github.com/TejodhayBonam/livefaceemotions.git
+cd 
 ```
 
-* Run `script.py`.
+* Run `app.py`.
 
 ```
-python script.py
+python app.py
 ```
 
 
