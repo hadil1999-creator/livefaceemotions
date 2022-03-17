@@ -13,6 +13,7 @@ Face, Emotion, Age, Gender Detection Using Microsoft Azure Face API
 
 * Python 3.6.9
 * azure-cognitiveservices-vision-face==0.5.0
+* opencv-python
 * cv2==4.1.1
 * msrest==0.6.21
 * threading (for multi-threading)
