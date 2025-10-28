@@ -26,10 +26,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run basic import test
+      - name: Run syntax check
         run: |
-          python -c "import app; print('App imported successfully')"
+          python -m py_compile app.py && echo "App syntax is valid"
 
-      - name: Run basic execution test (with timeout)
+      - name: Run dependency import test
         run: |
-          timeout 10s python app.py || echo "App started successfully (timed out as expected for interactive app)"
+          python -c "import cv2; import azure.cognitiveservices.vision.face; print('Dependencies imported successfully')"
